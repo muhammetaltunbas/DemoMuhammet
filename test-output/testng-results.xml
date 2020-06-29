@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="31962" started-at="2020-06-30T01:48:49 EET" finished-at="2020-06-30T01:49:21 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="31962" started-at="2020-06-30T01:48:49 EET" finished-at="2020-06-30T01:49:21 EET">
+      <class name="hepsiburada.DemoHomework.Homepage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:hepsiburada.DemoHomework.Homepage@2d6eabae]" name="initialize" is-config="true" duration-ms="11893" started-at="2020-06-30T01:48:49 EET" finished-at="2020-06-30T01:49:00 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="goAccount()[pri:0, instance:hepsiburada.DemoHomework.Homepage@2d6eabae]" name="goAccount" duration-ms="3355" started-at="2020-06-30T01:49:01 EET" finished-at="2020-06-30T01:49:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goAccount -->
+        <test-method status="PASS" signature="goAraundOnProducts()[pri:0, instance:hepsiburada.DemoHomework.Homepage@2d6eabae]" name="goAraundOnProducts" duration-ms="14461" started-at="2020-06-30T01:49:04 EET" finished-at="2020-06-30T01:49:18 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goAraundOnProducts -->
+        <test-method status="PASS" signature="goBasket()[pri:0, instance:hepsiburada.DemoHomework.Homepage@2d6eabae]" name="goBasket" duration-ms="303" started-at="2020-06-30T01:49:18 EET" finished-at="2020-06-30T01:49:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBasket -->
+        <test-method status="PASS" signature="verifyEachProductPage()[pri:0, instance:hepsiburada.DemoHomework.Homepage@2d6eabae]" name="verifyEachProductPage" duration-ms="1" started-at="2020-06-30T01:49:19 EET" finished-at="2020-06-30T01:49:19 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEachProductPage -->
+        <test-method status="PASS" signature="verifyProductsOnBasket()[pri:0, instance:hepsiburada.DemoHomework.Homepage@2d6eabae]" name="verifyProductsOnBasket" duration-ms="1907" started-at="2020-06-30T01:49:19 EET" finished-at="2020-06-30T01:49:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductsOnBasket -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:hepsiburada.DemoHomework.Homepage@2d6eabae]" name="teardown" is-config="true" duration-ms="0" started-at="2020-06-30T01:49:21 EET" finished-at="2020-06-30T01:49:21 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- hepsiburada.DemoHomework.Homepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

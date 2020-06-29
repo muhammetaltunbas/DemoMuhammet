@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="hepsiburada.DemoHomework.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="hepsiburada.DemoHomework.Homepage">
+        <methods>
+          <include name="verifyProductsOnBasket"/>
+          <include name="verifyEachProductPage"/>
+          <include name="initialize"/>
+          <include name="teardown"/>
+          <include name="goAccount"/>
+          <include name="goAraundOnProducts"/>
+          <include name="goBasket"/>
+        </methods>
+      </class> <!-- hepsiburada.DemoHomework.Homepage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
